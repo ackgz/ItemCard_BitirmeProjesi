@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka2"
+    tools:context=".Oyunlar">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF" />
+
+                <Button
+                    android:id="@+id/sepet"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sepet2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/cs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/csyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Counter-Strike: Global Offensive"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/csfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺120"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/csbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/division" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/divisionyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tom Clancy's The Division 2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/divisionfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺150"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/divisionbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/fifa" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/fifayazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          FIFA 2020"
+                        android:textAlignment="viewStart"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/fifafiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="       ₺150"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/fifabuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/forza" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/forzayazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Forza Horizon 4"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/forzafiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺100"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/forzabuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/lol" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/lolyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="League of Legends"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/lolfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FREE"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/lolbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/pes" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/pesyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="eFootball PES 2020"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/pesfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺150"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/pesbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/red" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/redyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Red Dead Redemption 2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/redfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺300"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/redbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="163dp"
+                    android:layout_height="157dp"
+                    app:srcCompat="@drawable/tomb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/tombyazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tomb Raider"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tombfiyat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₺300"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/tombbuy"
+                        style="@android:style/Widget.Holo.Button.Small"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#31333D"
+                        android:text="Satın Al"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

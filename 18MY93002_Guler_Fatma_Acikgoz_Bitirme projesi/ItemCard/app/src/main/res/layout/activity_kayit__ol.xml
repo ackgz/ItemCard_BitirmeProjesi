@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka2"
+    tools:context=".Kayit_Ol">
+
+    <EditText
+        android:id="@+id/sifre_giriss"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="312dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="itemcardsifre"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#2C2A2A"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="6dp"
+        android:background="#FDF7F0F0"
+        android:ems="10"
+        android:hint="kullanici@itemcard.com"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="#2C2A2A"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kayit_ol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="KAYIT OL"
+        app:layout_constraintBottom_toTopOf="@+id/yardim"
+        app:layout_constraintEnd_toStartOf="@+id/yardim" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kk" />
+
+    <Button
+        android:id="@+id/girisbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="37dp"
+        android:background="#00FFFFFF"
+        android:text="GİRİŞ YAP"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/yardim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="36dp"
+        android:background="#00FFFFFF"
+        android:text="YARDIM"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

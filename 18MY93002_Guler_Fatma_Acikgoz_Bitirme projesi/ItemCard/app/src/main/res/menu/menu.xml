@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfa"
+        android:title="ANASAYFA"
+        ></item>
+
+
+    <item
+        android:title="OYUNLAR"
+        android:id="@+id/oyunlar"
+        ></item>
+
+    <item
+        android:title="COİNS"
+        android:id="@+id/coins"
+        ></item>
+
+    <item
+        android:title="SİLAHLAR"
+        android:id="@+id/silah"
+        ></item>
+
+    <item
+        android:title="KARAKTERLER"
+        android:id="@+id/redsilahlar"
+        ></item>
+
+
+    <item
+        android:title="ÇIKIŞ"
+        android:id="@+id/cikis"
+        ></item>
+
+</menu>
